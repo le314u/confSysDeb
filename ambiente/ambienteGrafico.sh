@@ -1,15 +1,17 @@
-sudo apt-get install -y openbox 
-sudo apt-get install -y obconf
-sudo apt-get install -y xcompmgr
-sudo apt-get install -y tint2
+sudo apt-get install -y openbox     # gerenciador de janelas  
+sudo apt-get install -y obconf      # temas para openBox
+sudo apt-get install -y xcompmgr    # composite manager | efeitos nas janelas
+sudo apt-get install -y tint2       # painel | barra
 sudo apt-get install -y easy-logout 
-sudo apt-get install -y parcellite
-sudo apt-get install -y volumeicon-alsa
-sudo apt-get install -y lxappearance
-sudo apt-get install -y gmrun 
+sudo apt-get install -y parcellite  # gerenciamento de clipboard
+sudo apt-get install -y volumeicon-alsa #gerenciamento de audio
+sudo apt-get install -y lxappearance # temas para gtk
+sudo apt-get install -y gmrun # launcher
+sudo apt-get isntall -y xfce4-appfinder # search
 sudo apt-get install -y nitrogen
 sudo apt-get install -y xdotool
-
+sudo apt-get install -y gnome-screenshot
+sudo apt-get install -y lxrandr
 obconf --install ./themes/openbox-3/dracula.obt
 echo "
 xcompmgr -scfFr 10 -D 5 -o 0.3 &
