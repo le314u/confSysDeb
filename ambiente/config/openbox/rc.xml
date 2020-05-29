@@ -174,7 +174,7 @@
     <moveButton>Middle</moveButton>
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
-  a<keyboard>
+  <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
@@ -339,6 +339,12 @@
     <keybind key="W-S-Right">
       <action name="GrowToEdge"><direction>east</direction></action>
     </keybind>
+    <keybind key="C-A-t">
+     <action name="Execute">
+        <command>tilix </command>
+      </action>
+    </keybind>
+
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
