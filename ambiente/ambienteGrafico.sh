@@ -12,6 +12,9 @@ sudo apt-get install -y nitrogen
 sudo apt-get install -y xdotool
 sudo apt-get install -y gnome-screenshot
 sudo apt-get install -y lxrandr
+sudo apt-get install -y gnome-calculator
+sudo apt-get install -y gnome-calendar
+
 obconf --install ./themes/openbox-3/dracula.obt
 echo "
 xcompmgr -scfFr 10 -D 5 -o 0.3 &
